@@ -1,0 +1,60 @@
+
+IET@DESKTOP-O5LMBEJ MINGW64 ~/Desktop/fabrikm/Fabrikam (main)
+$ git add .
+
+IET@DESKTOP-O5LMBEJ MINGW64 ~/Desktop/fabrikm/Fabrikam (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Dockerfile
+        new file:   package.json
+        new file:   public/About.html
+        new file:   public/Contact.html
+        new file:   public/Index.html
+        new file:   public/h_a.jpg
+        new file:   public/h_main.jpg
+        new file:   public/login.html
+        new file:   server.js
+
+
+IET@DESKTOP-O5LMBEJ MINGW64 ~/Desktop/fabrikm/Fabrikam (main)
+$ git commit m 'firstcommit'
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'firstcommit' did not match any file(s) known to git
+
+IET@DESKTOP-O5LMBEJ MINGW64 ~/Desktop/fabrikm/Fabrikam (main)
+$ git commit -m 'firstcommit'
+[main (root-commit) c127a32] firstcommit
+ 9 files changed, 514 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 package.json
+ create mode 100644 public/About.html
+ create mode 100644 public/Contact.html
+ create mode 100644 public/Index.html
+ create mode 100644 public/h_a.jpg
+ create mode 100644 public/h_main.jpg
+ create mode 100644 public/login.html
+ create mode 100644 server.js
+
+IET@DESKTOP-O5LMBEJ MINGW64 ~/Desktop/fabrikm/Fabrikam (main)
+$ git remote add origin https://github.com/prashant1168/Fabrikam.git
+error: remote origin already exists.
+
+IET@DESKTOP-O5LMBEJ MINGW64 ~/Desktop/fabrikm/Fabrikam (main)
+$ git push origin main
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (12/12), 46.38 KiB | 11.59 MiB/s, done.
+Total 12 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/prashant1168/Fabrikam.git
+ * [new branch]      main -> main
+
+IET@DESKTOP-O5LMBEJ MINGW64 ~/Desktop/fabrikm/Fabrikam (main)
+$
